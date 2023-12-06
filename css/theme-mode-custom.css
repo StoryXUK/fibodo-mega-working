@@ -1,0 +1,125 @@
+/*=== Media Query ===*/
+body[data-theme='light'] .text-primary--light-only {
+  color: #3c7473;;
+}
+
+body[data-theme='light'] .text-secondary--light-only {
+  color: #3f293a;;
+}
+
+body[data-theme='dark'] .border-gray-3 {
+  border-color: var(--border-color) !important;
+}
+
+body[data-theme='dark'] .bg-gradient-2 {
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #13151C 100%);
+}
+
+body[data-theme='dark'] .border-blackish-blue {
+  border-color: #fff !important;
+}
+
+body[data-theme='dark'] .gr-bg-blackish-blue-opacity-1 {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+body[data-theme='dark'] .btn-toggle {
+  background-color: #efefef;
+}
+
+body[data-theme='dark'] .btn-toggle span {
+  background: #3c7473;;
+}
+
+body[data-theme='dark'] .btn-toggle.active span {
+  background: #ffff;
+}
+
+/*# sourceMappingURL=maps/theme-mode-custom.css.map */
+
+
+
+
+.coundown-container{
+  display: flex;
+  
+  /* flex-direction: row; */
+
+}
+.big-text{
+  font-size: 3rem;
+  line-height: 1;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+  background-color: #fff;
+  color: #13151C;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(37, 37, 37, 0.1);
+}
+
+.countdown-el{
+  text-align: center;
+}
+.countdown-el span{
+  font-size: 1rem;
+}
+
+.demo-text {
+  font-size: 5rem;
+font-weight: 700;}
+
+.bg-slate-grey {background-color: #3c7473;}
+
+.bg-light-slate-grey {background-color: slategrey;}
+
+.bg-v-light-slate-grey {background-color: rgb(159, 162, 165);}
+
+.bg-pale-blue {background-color: #caf1f8;}
+
+.bg-v-pale-blue {background-color: #f7feff;}
+
+.bg-teal {background-color: #3c7473;}
+
+.bg-light-grey {background-color: #e2e2e2;}
+
+.col-dark {background-color: #1c1c1c}
+
+.col-dark-green {background-color: #3c7473}
+
+.col-aqua {background-color: #6cc0bf}
+
+.col-v-light {background-color: #f2f2f2} 
+
+.col-maroon {background-color: #3f293a}
+
+
+.border {
+  
+  background-color: #fff;
+  border: #13151C;
+  
+  border-radius: 5px;
+ 
+}
+
+
+@media (max-width: 1024px) {
+  .mob-rev {
+    display: none !important;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .desk-rev {
+    display: none;
+  }
+}
+
+
+.card-image {border-radius: 25px;}
+.text-white {
+  
+  color: #fff;}
