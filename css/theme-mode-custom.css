@@ -123,3 +123,12 @@ font-weight: 700;}
 .text-white {
   
   color: #fff;}
+
+
+  .carousel-item {
+    text-align: center;
+}
+.carousel-img {
+    max-width: 100%;
+    height: auto;
+}
