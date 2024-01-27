@@ -318,5 +318,3 @@ function formatTime(time){
 
 setInterval(countdown,1000);
 
-
-
